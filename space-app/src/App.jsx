@@ -7,7 +7,7 @@ import BottomNav from './components/BottomNav/BottomNav.jsx';
 import Astros from './components/Astros/Astros.jsx';
 import Tripulacion from './assets/tripulacion.jpg';
 import Imagenes from './assets/Imagenes.jsx';
-
+import About from './components/About/About.jsx';
 
 function App() {
 
@@ -54,9 +54,12 @@ function App() {
     <Astros/>
     <div>
     <img src= {Tripulacion}/>
-     </div>
+     </div> 
+     <About/>
+
       <Button name={btnText}/>
       <BottomNav/>
+     
     </>
     
   )

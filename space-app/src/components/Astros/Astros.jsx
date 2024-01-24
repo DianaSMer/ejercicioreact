@@ -34,6 +34,9 @@ const Astro= (props) => {
         }
 
     }, [])
+
+   
+
     return(
     <div className='cards-container flex'>
         {
