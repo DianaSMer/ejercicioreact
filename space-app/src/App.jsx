@@ -5,6 +5,10 @@ import Button from './components/Button/Button.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import BottomNav from './components/BottomNav/BottomNav.jsx';
 import Astros from './components/Astros/Astros.jsx';
+import Tripulacion from './assets/tripulacion.jpg';
+import Imagenes from './assets/Imagenes.jsx';
+
+
 function App() {
 
   const links = [
@@ -14,8 +18,11 @@ function App() {
   ]
 
   
+  
   const btnText = 'Login';
   return(
+
+
     <>
     <Navbar links={links}/>
     <Routes>
@@ -27,21 +34,31 @@ function App() {
     <Route
     
       path='/about'
-      element={<BottomNav/>}
+     
 
     />
 
     <Route
       path='./about'
       element={<BottomNav/>}
+
     />
 
     </Routes>
+    <div>
+        <img src= {Imagenes.img1}/>
+        <img src= {Imagenes.img2}/>
+        <img src= {Imagenes.img3}/>
+    </div>
 
     <Astros/>
+    <div>
+    <img src= {Tripulacion}/>
+     </div>
       <Button name={btnText}/>
       <BottomNav/>
     </>
+    
   )
 }
 
