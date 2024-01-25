@@ -9,6 +9,7 @@ import Tripulacion from './assets/tripulacion.jpg';
 import Imagenes from './assets/Imagenes.jsx';
 import About from './components/About/About.jsx';
 
+
 function App() {
 
   const links = [
